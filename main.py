@@ -11,12 +11,15 @@ PUSHOVER_API_TOKEN = "SEU_API_TOKEN_AQUI"
 PALAVRA_ALVO       = "chamada"   # palavra que dispara a notificação
 # ──────────────────────────────────────────────
 
-#Configuração Rápida do Pushover :
+# Configuração Rápida do Pushover :
 # 1 - Crie conta em pushover.net
 # 2 - Instale o app Pushover no seu celular
 # 3 - Copie o User Key da dashboard
 # 4 - Crie um novo "Application" e copie o API Token
 # 5 - Cole os dois valores no topo do script
+
+# Clicar alt + F12 para abrir o terminal e executar:
+# pip install pyaudiowpatch SpeechRecognition requests
 
 SAMPLE_RATE  = 16000
 CHUNK        = 1024
